@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Oluwaseun</title>
+</head>
+<style>
+    body{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+       
+      }
+    .topnav{
+      background-color:#333;
+      overflow: hidden;
+    } 
+   .topnav a{
+      color: #f2f2f2;
+      text-align: center;
+      padding:14px 16px;
+      font-size: 16px;
+      text-decoration: none;
+      float: left;
+      
+    }
+    .topnav a:hover {
+      background-color:#ddd;
+      color: black;
+    }
+    .topnav a.active {
+      background-color:#04AA6D;
+      color:white;
+    }
+    form{
+      margin-left:39%;
+    }
+    
+    h1{
+      margin-top:60px;
+      margin-bottom: 60px;
+      text-align:center;
+      
+    }
+    
+    
+    input{
+      border-radius: 5px;
+      width: 120%;
+      padding:14px 20px;
+      margin-bottom: 10px;
+      border: 1px solid gainsboro;
+    }
+    label{
+      font-size:18px;
+      width: 100%;
+      font-weight:medium;
+    }
+    select{
+      border: 1px solid gainsboro;
+      border-radius: 5px;
+      width: 139.8%;
+      padding:16px 20px;
+      margin-bottom: 7px;
+
+    }
+    button{
+      background-color:rgb(10, 24, 9);
+      Padding: 16px 20px;
+      width: 100%;
+      font-size:20px;
+      color: #fff;
+      border-radius:5px;
+      font-weight:medium; 
+      margin-top:40px;
+     margin-left:115%;
+      
+    
+    }
+    
+
+</style>
+<body>
+    <div class="topnav">
+      <a  href="home.html">Home</a>
+      <a class="active"href="reg.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="cont.html">Contact</a>
+    </div>
+    <h1>Register</h1>
+    <form>
+     
+      <table>
+        <tr>
+          <td><label for fname =>First Name</label></td>
+          <td><input id="fname" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for lname =>Last Name</label></td>
+          <td><input id="lname" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for phone =>Phone Number</label></td>
+          <td><input id="phone" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for gender =>Gender</label></td>
+          <td><select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option><td>
+        </tr>
+        <tr>
+          <td><label for country=>Country</label></td>
+          <td><input id="country" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for state=>State/Province</label></td>
+          <td><input id="state" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for email=>Email</label></td>
+          <td><input id="email" type="text"/></td>
+        </tr>
+        <tr>
+          <td><label for password=>Password</label></td>
+          <td><input id="password" type="password"/></td>
+        </tr>
+        <tr>
+          <td><label for confirm-p=>Confirm Password</label></td>
+          <td><input id="confirm-p" type="password"/></td>
+        </tr>
+       
+        <tr>
+         <td><button type="submit">REGISTER</button></td> 
+        </tr>
+      </table>
+      
+       
+
+  </form>
+</body>
+</html> 
